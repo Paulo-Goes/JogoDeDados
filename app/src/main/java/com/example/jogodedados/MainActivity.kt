@@ -50,7 +50,7 @@ fun Dice() {
     var dice2 by remember { mutableIntStateOf(0) }
     var totalGames by remember { mutableIntStateOf(0) }
     var totalWins by remember { mutableIntStateOf(0) }
-    var result by remember { mutableStateOf("Unkown") }
+    var result by remember { mutableStateOf("Unknown") }
 
     fun roll() {
         dice1 = (1..6).random()
